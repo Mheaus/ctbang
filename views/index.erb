@@ -157,7 +157,7 @@
       }
       #secondary .background {
         width: 100%;
-        height: 500px;
+        height: 150px;
         transform: skewY(-11deg);
         background: rgba(216,216,216,.2);
         z-index: -1;
@@ -177,11 +177,14 @@
         font-size: .75em;
       }
       #map {
-        margin: 2em 0 1em 0;
+        margin: 1em 0 -10px 0;
         width: 100%;
         height: 12em;
       }
-      #details {}
+      #details {
+        padding: calc(1em + 10px) 0;
+        background-color: #F6F6F6;
+      }
       #details #btn {
         width: 112px;
         margin-left: 16px;
@@ -213,7 +216,6 @@
         width: 9px;
       }
       #contact {
-        margin-top: 1em;
         background-color: white;
         padding: 1em;
         display: flex;
@@ -225,12 +227,13 @@
         display: inline-block;
       }
       #contact #fb-link p {
-        width: 20%;
+        margin-left: .75em;
         font-size: 10px;
       }
       #contact #links {
-        margin: 0 1em;
+        line-height: 13px;
         text-align: center;
+        margin-top: -.15em;
       }
       #contact #links #phone {
         font-size: 12px;
