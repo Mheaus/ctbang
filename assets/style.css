@@ -183,6 +183,7 @@ a:hover {
 }
 #details #btn p {
   font-size: 12px;
+  display: inline-block;
 }
 #details #btn img {
   padding: 3px 10px;
