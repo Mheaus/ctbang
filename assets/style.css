@@ -209,6 +209,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+#contact #fb-link {
+  width: 75%;
+  display: flex;
+}
 #contact #fb-link img {
   width: 1.5em;
   height: 1.5em;
@@ -225,7 +229,6 @@ a:hover {
 }
 #contact #links #phone {
   font-size: 12px;
-
 }
 #contact #links #mail {
   font-size: 10px;
