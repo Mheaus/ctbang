@@ -38,6 +38,9 @@
         justify-content: space-around;
         align-items: center;
       }
+      .d-none {
+        display: none;
+      }
 
       #header {
         overflow: hidden;
@@ -179,23 +182,32 @@
       #details {}
       #details #btn {
         width: 112px;
-        margin: 0 1em;
+        margin-left: 16px;
         padding: 3px 12px 4px 8px;
         background: white;
         box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.08);
         border-radius: 1px;
       }
+      #details #btn p {
+        font-size: 12px;
+      }
+      #details #btn img {
+        width: 9px;
+      }
       #details .content {
         margin-left: 2em;
         border-left: 1px solid #F5A623;
-        padding: 1em;
+        padding: .5em 1em .3em 1em;
       }
-      #details .content {
-        font-size: 11px;
+      #details .content p {
+        font-size: 10px;
       }
-      @i {
-        font-family: open;
-        src: url(./assets/ic_open.png);
+      #details .content a {
+        font-size: 10px;
+      }
+      #details .content img {
+        height: 9px;
+        width: 9px;
       }
     </style>
 
@@ -254,10 +266,14 @@
           &q=CTBang,Blanquefort&zoom=13" allowfullscreen>
       </iframe>
       <div id="details">
-        <p id="btn">En savoir plus</p>
+        <div id="btn">
+          <p>En savoir plus</p>
+          <img src="assets/expand.png" class="d-none" alt="expand-ic">
+          <img src="assets/close.png" class="" alt="collapse-ic">
+        </div>
         <div class="content">
           <p>Le Contrôle Technique Blanquefort Aquitaine Nguyen vous accueille toute la semaine pour procéder au contrôle technique de votre véhicule.</p>
-          <a href="#">Venez profiter d’un prix attractif de 70€ et d’un service rapide avant la réforme du 20 Mai 2018.
+          <a href="https://www.francebleu.fr/infos/societe/nouveau-controle-technique-le-nombre-de-contre-visites-risque-d-augmenter-en-mai-2018-1510247765">Venez profiter d’un prix attractif de 70€ et d’un service rapide avant la réforme du 20 Mai 2018.
             <img src="./assets/ic_open.png" alt="ico-open">
           </a>
         </div>

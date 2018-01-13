@@ -7,18 +7,27 @@ p {
   margin: 0;
   font-weight: 300;
 }
-.abs {
-  position: absolute;
-}
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+a {
+  color: #F5A623;
+}
+a:hover {
+  color: rgba(245,166,35,.7)
+}
+.abs {
+  position: absolute;
+}
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.d-none {
+  display: none;
 }
 
 #header {
@@ -132,6 +141,13 @@ ul {
   font-size: 16px;
   margin-top: 11em;
 }
+#secondary .background {
+  width: 100%;
+  height: 500px;
+  transform: skewY(-11deg);
+  background: rgba(216,216,216,.2);
+  z-index: -1;
+}
 #call-to-action {
   text-align: center;
 }
@@ -147,7 +163,37 @@ ul {
   font-size: .75em;
 }
 #map {
-  margin: 2em 0;
+  margin: 2em 0 1em 0;
   width: 100%;
-  height: 15em;
+  height: 12em;
+}
+#details {}
+#details #btn {
+  width: 112px;
+  margin-left: 16px;
+  padding: 3px 12px 4px 8px;
+  background: white;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.08);
+  border-radius: 1px;
+}
+#details #btn p {
+  font-size: 12px;
+}
+#details #btn img {
+  width: 9px;
+}
+#details .content {
+  margin-left: 2em;
+  border-left: 1px solid #F5A623;
+  padding: .5em 1em .3em 1em;
+}
+#details .content p {
+  font-size: 10px;
+}
+#details .content a {
+  font-size: 10px;
+}
+#details .content img {
+  height: 9px;
+  width: 9px;
 }
