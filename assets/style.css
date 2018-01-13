@@ -139,7 +139,9 @@ a:hover {
 }
 #secondary {
   font-size: 16px;
+  height: 412px;
   margin-top: 11em;
+  overflow: hidden;
 }
 #secondary .background {
   width: 100%;
@@ -171,7 +173,7 @@ a:hover {
 #details #btn {
   width: 112px;
   margin-left: 16px;
-  padding: 3px 12px 4px 8px;
+  padding: 3px 0 4px 8px;
   background: white;
   box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.08);
   border-radius: 1px;
@@ -180,6 +182,7 @@ a:hover {
   font-size: 12px;
 }
 #details #btn img {
+  padding: 3px 10px;
   width: 9px;
 }
 #details .content {
@@ -196,4 +199,33 @@ a:hover {
 #details .content a img {
   height: 9px;
   width: 9px;
+}
+#contact {
+  margin-top: 1em;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+#contact #fb-link img {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+}
+#contact #fb-link p {
+  width: 20%;
+  font-size: 10px;
+}
+#contact #links {
+  margin: 0 1em;
+  text-align: center;
+}
+#contact #links #phone {
+  font-size: 12px;
+
+}
+#contact #links #mail {
+  font-size: 10px;
+  color: #4A4A4A;
+  text-decoration: none;
 }
