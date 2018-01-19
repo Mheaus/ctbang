@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112704225-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112704225-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contrôle Technique Bang</title>
+    <meta name="description" content="Contrôle Technique Automobile Blanquefort Bang - Horaires et Contact">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Contrôle Technique Automobile Blanquefort Bang">
+    <meta itemprop="description" content="Contrôle Technique Automobile Blanquefort Bang - Horaires et Contact">
+    <meta itemprop="image" content="http://dcjmt160nibmr.cloudfront.net/assets/preview.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://dcjmt160nibmr.cloudfront.net">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contrôle Technique Automobile Blanquefort Bang">
+    <meta property="og:description" content="Contrôle Technique Automobile Blanquefort Bang - Horaires et Contact">
+    <meta property="og:image" content="http://dcjmt160nibmr.cloudfront.net/assets/preview.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contrôle Technique Automobile Blanquefort Bang">
+    <meta name="twitter:description" content="Contrôle Technique Automobile Blanquefort Bang - Horaires et Contact">
+    <meta name="twitter:image" content="http://dcjmt160nibmr.cloudfront.net/assets/preview.png">
+
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="assets/style.css" rel="stylesheet">
-    <title>Contrôle Technique Bang</title>
   </head>
   <body>
     <section id="header">
@@ -15,12 +43,17 @@
         <span class="abs"></span>
         <span class="abs"></span>
       </div>
-      <h1 id="title" class="abs">
-        <p class="title-minus-black">Contrôle</br>Technique</p>
-        Bang
-      </h1>
+      <div id="top">
+        <h1 id="title">
+          <p class="title-minus-black">Contrôle</br>Technique</p>
+          Bang
+        </h1>
+        <a href="https://www.facebook.com/CT-Bang-Contrôle-technique-815754588603817/" target="_blank" class="fb-link">
+          <img id="fb-logo-white" src="assets/fb_logo_white.png" alt="">
+        </a>
+      </div>
     </section>
-    <section id="main" class="abs">
+    <section id="main">
       <p id="catchphrase">Le contrôle technique Bang vous accueille du lundi au samedi</p>
       <div id="schedule-table">
         <div class="background abs"></div>
@@ -52,40 +85,86 @@
           </ul>
         </div>
       </div>
+      <div id="call-to-action">
+        <p>Réservez maintenant pour bénéficier d’une remise de 5€</p>
+        <div id="phone-number-container">
+          <img src="assets/ic_call.png" alt="">
+          <a href="tel:0556702773" alt="phone-number" class="phone">05 56 70 27 73</a>
+        </div>
+      </div>
     </section>
     <section id="secondary">
       <div class="background abs"></div>
-      <div id="call-to-action">
-        <p>Réservez maintenant pour bénéficier d’une remise de 5€</p>
-        <a href="tel:0556702773" alt="phone-number" class="phone">05 56 70 27 73</a>
-      </div>
-      <iframe frameborder="0" style="border:0" id="map"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCUkaq17dKbdEoWnX7GO5nTQaUF0UBNVWE
-          &q=CTBang,Blanquefort&zoom=13" allowfullscreen>
-      </iframe>
-      <div id="details">
-        <div id="btn">
-          <p>En savoir plus</p>
-          <img src="assets/expand.png" class="d-none" alt="expand-ic">
-          <img src="assets/close.png" class="" alt="collapse-ic">
-        </div>
-        <div class="content">
-          <p>Le Contrôle Technique Blanquefort Aquitaine Nguyen vous accueille toute la semaine pour procéder au contrôle technique de votre véhicule.</p>
-          <a href="https://www.francebleu.fr/infos/societe/nouveau-controle-technique-le-nombre-de-contre-visites-risque-d-augmenter-en-mai-2018-1510247765">Venez profiter d’un prix attractif de 70€ et d’un service rapide avant la réforme du 20 Mai 2018.
-            <img src="./assets/ic_open.png" alt="ico-open">
-          </a>
+      <div id="col-2-md">
+        <iframe frameborder="0" id="map"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCUkaq17dKbdEoWnX7GO5nTQaUF0UBNVWE
+            &q=CTBang,Blanquefort&zoom=13" allowfullscreen>
+        </iframe>
+        <div id="details">
+          <div id="btn">
+            <p>En savoir plus</p>
+            <img id="expand" src="assets/expand.png" class="op0" alt="expand-ic">
+            <img id="collapse" src="assets/close.png" alt="collapse-ic">
+          </div>
+          <div class="content">
+            <p>Le Contrôle Technique Blanquefort Aquitaine Nguyen vous accueille toute la semaine pour procéder au contrôle technique de votre véhicule.</p>
+            <a href="https://www.francebleu.fr/infos/societe/nouveau-controle-technique-le-nombre-de-contre-visites-risque-d-augmenter-en-mai-2018-1510247765">
+              <p>
+                Venez profiter d’un prix attractif de 70€ et d’un service rapide avant la réforme du 20 Mai 2018.
+                <img src="./assets/ic_open.png" alt="ico-open">
+              </p>
+            </a>
+          </div>
+          <div id="contact">
+            <a class="fb-link" href="https://www.facebook.com/CT-Bang-Contrôle-technique-815754588603817/" target="_blank">
+              <img src="assets/fb_logo.png" alt="facebook-icon">
+              <p>CT Bang - Contrôle</br>technique</p>
+            </a>
+            <a id="mail" href="mailto:ctbang33@gmail.com">ctbang33@gmail.com</a>
+          </div>
         </div>
       </div>
     </section>
     <section id="contact">
-      <div id="fb-link">
+      <a class="fb-link" href="https://www.facebook.com/CT-Bang-Contrôle-technique-815754588603817/" target="_blank">
         <img src="assets/fb_logo.png" alt="facebook-icon">
         <p>CT Bang - Contrôle</br>technique</p>
-      </div>
+      </a>
       <div id="links">
         <a href="tel:0556702773" alt="phone-number" class="phone">05 56 70 27 73</a>
-        <a id="mail" href="ctbang33@gmail.com">ctbang33@gmail.com</a>
+        <a id="mail" href="mailto:ctbang33@gmail.com">ctbang33@gmail.com</a>
       </div>
     </section>
+    <section id="pictures">
+      <img src="assets/int1.jpg" alt="image">
+      <img src="assets/ext1.jpg" alt="image">
+      <img src="assets/ext2.jpg" alt="image">
+    </section>
+    <div id="zoom-hover" class="d-none flex">
+      <img src="assets/ext1.jpg" alt="image">
+    </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#btn').on('click', function(e) {
+        $('.content').toggleClass('collapse')
+        $('#expand').toggleClass('op0')
+      });
+
+      $('#pictures>img').on('click', function(e) {
+        var a = this.attributes.src; console.log(a); $('#zoom-hover').toggleClass('d-none'); $('#zoom-hover>img')[0].src=e.target.src;
+      });
+      
+      $('#zoom-hover>img').on('click', function(e) {
+          $('#zoom-hover').toggleClass('d-none');
+      });
+
+      $('.fb-link').on('click', function (event) {
+        event.preventDefault();
+        setTimeout(function () { window.open("https://www.facebook.com/CT-Bang-Contrôle-technique-815754588603817/", "_blank")}, 25);
+        window.location = "fb://pages/CT-Bang-Contrôle-technique-815754588603817"
+      });
+    });
+  </script>
 </html>
